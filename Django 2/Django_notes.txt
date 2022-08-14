@@ -1,0 +1,27 @@
+If we install the django it install the features for entire pc but we use diiferent versions in different projects So for that u need to create the separate virtual machine for specific project
+pip install virtualenv == package that allows us to  Install the virtual machine for separate django setup
+python -m virtualenv . == Create the new Environmnet in the folder (Create the folder called env and put the command inside the folder)
+env\scripts\activate == Activate the virtual Environment 
+env\scripts\deactivate == Dectivate the virtual Environment 
+pip install django == Install Django
+python -m django == U can see what are the commands that can use as an admin
+python -m django startproject web2 == Create the applications of Django
+python manage.py runserver == To run the Server
+clrl + c == Stop the server 
+
+Open the terminal of vscode
+turn on the virtual env
+if "cannot be loaded because running scripts is disabled on this system" error came type powershell in windows and paste "Set-ExecutionPolicy Unrestricted -Scope Process" this and for permission give "A" and exit
+Run the server and the command in line 9
+Click "+" on the top right corner of the terminal to create new terminal without stoping the server
+turn on the virtual env
+python manage.py startapp base == Create an separate space for app applications
+
+
+html:5 and press tab == gives the base html texts
+
+python manage.py migrate == Enable the default tables in the inbuilt database
+manage.py makemigrations == A new file will migrated when u change in models.py every single time(Use this when u change the models.py)
+manage.py migrate == U need to enter this after using the above step
+
+python manage.py createsuperuser == Create the admin level user
