@@ -8,6 +8,9 @@ django-admin == We can see all the commands that can run as admin
 django-admin startproject anynameuwant == this command create the boilerplate files to set up the django apllication
 ////python -m django == U can see what are the commands that can use as an admin
 ////python -m django startproject web2 == Create the applications of Django
+
+Put the env folder into the project folder
+
 python manage.py runserver == To run the Server
 clrl + c == Stop the server 
 
