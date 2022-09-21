@@ -31,8 +31,16 @@ html:5 and press tab == gives the base html texts
 
 python manage.py migrate == Enable the default tables in the inbuilt database
 manage.py makemigrations == A new file will migrated when u change in models.py every single time(Use this when u change the models.py)
+
+
+
 manage.py migrate == U need to enter this after using the above step
 
 python manage.py createsuperuser == Create the admin level user
 
+pip install djangorestframework == It install the django restframework
+
+
+
+python -m pip install django-cors-headers == For api
 
