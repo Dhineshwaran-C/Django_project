@@ -44,3 +44,4 @@ pip install djangorestframework == It install the django restframework
 
 python -m pip install django-cors-headers == For api
 
+python -m pip install pillow == It is for the image field for profile photo
